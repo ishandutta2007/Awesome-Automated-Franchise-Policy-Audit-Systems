@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&color=success" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"/></a>
@@ -71,61 +71,61 @@ The following enterprise platforms specialize in franchise audits, field inspect
 
 ## 💻 Open-Source Repositories & Frameworks
 
-Production-grade open-source repositories for self-hosting audit infrastructure, building field inspection apps, training computer vision compliance models, and maintaining tamper-proof audit trails. Sorted in **descending order by GitHub star count**:
+Production-grade open-source repositories for self-hosting audit infrastructure, building field inspection apps, training computer vision compliance models, and maintaining tamper-proof audit trails. Sorted in **descending order by GitHub Stars_Count**:
 
-- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   *Fair-code workflow automation platform for orchestrating franchise policy audits, routing non-compliance alerts, and connecting store data.*  
   Serves as the central integration bus for automated audits: triggers automated webhooks when store checklists fail, routes photo submissions to AI inference endpoints, generates Jira/Slack corrective action tickets for store managers, and dispatches escalation emails to district supervisors.
 
-- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** [![GitHub stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers)  
+- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers)  
   *The premier open-source Optical Character Recognition engine for automated scanning and digitization.*  
   Critical for converting legacy paper inspection logs, printed supplier invoices, health inspection certificates, and printed receipts from distributed franchise units into structured, queryable digital audit records.
 
-- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
+- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
   *Open-source smart spreadsheet and relational database interface connecting directly to PostgreSQL/MySQL.*  
   Provides franchise compliance directors with an instant Airtable-like collaborative workspace for tracking location checklists, managing recurring audit schedules, recording infraction penalties, and reviewing store performance scorecards.
 
-- **[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)** [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
+- **[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)** [![GitHub_Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
   *State-of-the-art computer vision framework (YOLOv8 / YOLO11) for real-time object detection and visual audit automation.*  
   Enables automated visual verification of franchise brand standards: detects proper staff uniform and hat adherence, verifies marketing signage and point-of-sale poster placements, audits kitchen cleanliness, and validates product plating compliance from submitted field photos.
 
-- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   *Comprehensive open-source business management suite (LGPL-3.0).*  
   Features modular **Field Service**, **Quality Control**, and **Point of Sale (POS)** engines. Provides multi-branch inventory tracking, automated quality checkpoints, scheduled maintenance audits, and standardized operating procedure enforcement across distributed franchise branches.
 
-- **[Supervision](https://github.com/roboflow/supervision)** [![GitHub stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
+- **[Supervision](https://github.com/roboflow/supervision)** [![GitHub_Stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
   *Reusable open-source computer vision utilities for retail shelf audits, zone detection, and compliance analysis.*  
   Streamlines video stream and photo analysis for retail and restaurant audits: provides polygon zone monitoring (e.g. verifying clean food prep counters), object counting (detecting inventory stockouts), and visual compliance annotators.
 
-- **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
+- **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub_Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
   *Open-source document management system that transforms physical documents into searchable digital archives.*  
   Features automated OCR, document classification, and metadata extraction. Ideal for centralizing franchise agreements, local health inspection reports, food safety certificates, and business licenses across hundreds of locations.
 
-- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
   *100% open-source enterprise ERP (GPL-3.0) with robust multi-company franchise operations support.*  
   Offers native modules for asset maintenance inspections, quality inspection forms, multi-unit accounting, royalty calculation ledgers, and consolidated corporate reporting across franchisor-franchisee boundaries.
 
-- **[Budibase](https://github.com/Budibase/budibase)** [![GitHub stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers)  
+- **[Budibase](https://github.com/Budibase/budibase)** [![GitHub_Stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers)  
   *Open-source low-code platform for building internal tools, auditor portals, and mobile field inspection apps.*  
   Enables operations teams to generate custom mobile-responsive store audit apps in hours—featuring photo attachments, digital signature capture, dynamic conditional fields, and role-based access for field auditors and franchisees.
 
-- **[immudb](https://github.com/codenotary/immudb)** [![GitHub stars](https://img.shields.io/github/stars/codenotary/immudb?style=social&color=white)](https://github.com/codenotary/immudb/stargazers)  
+- **[immudb](https://github.com/codenotary/immudb)** [![GitHub_Stars](https://img.shields.io/github/stars/codenotary/immudb?style=social&color=white)](https://github.com/codenotary/immudb/stargazers)  
   *Lightweight, high-speed immutable database for cryptographic, tamper-proof audit trails and compliance ledgers.*  
   Ensures that once a store inspection, temperature log, or violation notice is recorded, it cannot be retroactively altered, backdated, or falsified by store managers or operators—providing legally admissible proof of compliance posture.
 
-- **[OpenBoxes](https://github.com/openboxes/openboxes)** [![GitHub stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)  
+- **[OpenBoxes](https://github.com/openboxes/openboxes)** [![GitHub_Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)  
   *Open-source supply chain and inventory management software (EPL-1.0).*  
   Specialized for tracking inventory movement, lot numbers, expiration dates, and multi-location transfers across distributed franchise distribution centers and commissary kitchens.
 
-- **[ODK Collect](https://github.com/getodk/collect)** [![GitHub stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
+- **[ODK Collect](https://github.com/getodk/collect)** [![GitHub_Stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
   *The global open-source mobile standard for offline field data collection and site inspections.*  
   Features robust offline caching, GPS location verification, time-stamped photo capture, dynamic question skipping, and automated synchronization once network connectivity is restored—essential for field auditors visiting remote stores.
 
-- **[getsear Franchise Module](https://github.com/AIVIIZN/getsear)** [![GitHub stars](https://img.shields.io/github/stars/AIVIIZN/getsear?style=social&color=white)](https://github.com/AIVIIZN/getsear/stargazers)  
+- **[getsear Franchise Module](https://github.com/AIVIIZN/getsear)** [![GitHub_Stars](https://img.shields.io/github/stars/AIVIIZN/getsear?style=social&color=white)](https://github.com/AIVIIZN/getsear/stargazers)  
   *Open-source franchise management specification with API routes, compliance check schemas, and royalty models.*  
   Defines structured database schemas for `franchise_compliance_checks` (menu adherence, pricing compliance, operational hours), corporate menu push status logs (`menu_push_log`), regional director assignments, and automated period-based royalty calculations.
 
-- **[Crop Compliance Observation Ledger](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger)** [![GitHub stars](https://img.shields.io/github/stars/mizcausevic-dev/crop-compliance-observation-ledger?style=social&color=white)](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger/stargazers)  
+- **[Crop Compliance Observation Ledger](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger)** [![GitHub_Stars](https://img.shields.io/github/stars/mizcausevic-dev/crop-compliance-observation-ledger?style=social&color=white)](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger/stargazers)  
   *TypeScript control plane for field observations, evidence blockers, and audit posture verification.*  
   Demonstrates an evidence-ledger architecture that converts observation data into governed review lanes, named compliance ownership, and automated verification posture endpoints with 100% test coverage.
 
@@ -178,7 +178,7 @@ Contributions from franchise operators, compliance auditors, and open-source dev
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a feature branch**: `git checkout -b feature/add-new-audit-platform`.
-3. 📝 **Add or update an entry**: Maintain tabular pricing specifications for SaaS tools, or provide shields.io star badges linking to the repository stargazers page for open-source projects.
+3. 📝 **Add or update an entry**: Maintain tabular pricing specifications for SaaS tools, or provide shields.io Stars_Badges linking to the repository stargazers page for open-source projects.
 4. 🚀 **Commit your changes**: `git commit -m "feat: add NewAuditPlatform to ecosystem"`.
 5. 📬 **Submit a Pull Request**: Provide a concise summary of the software and links to official documentation.
 
