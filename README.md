@@ -1,183 +1,208 @@
-# Awesome-Automated-Franchise-Policy-Audit-Systems
-
-## Top Automated Franchise Policy Audit Systems Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Store-Level Compliance, AI-Powered Auditing & Brand Standards Verification*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Automated Franchise Policy Audit Systems**. These tools enable franchisors to enforce brand standards, verify store-level compliance, and automate routine inspections across distributed networks—using AI to scan photos, documents, and operational data for policy violations without manual site visits.
-
-
-
-**Examples** include FranConnect, Zenput (Crunchtime), IntouchCheck, Form.com, ComplianceMetrix, Jolt, MeazureUp, OpsAnalitica, MarketMan, and FieldX (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, evidence-ledger compliance tracking, and open audit infrastructure—ideal for franchise operators, compliance teams, and developers seeking transparent, vendor-independent audit systems.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[FranConnect](https://www.franconnect.com/)**  
-
-  Comprehensive franchise management platform covering lead management, onboarding, financial management, performance tracking, and compliance. Features **one repository** for agreements, royalty reports, and operations manuals. Custom fields and checklists define brand standards. Deadline and non-compliance alerts with escalation workflows. Scheduled audits and inspections from reusable templates. Compliance reporting integrated with LMS for ongoing training . The **Operations module** centralizes visits, self-assessments, incidents, tasks, and playbooks—with Forms and Reports for field data collection and analysis .
-
-
-
-- **[Zenput (Crunchtime Ops Execution)](https://www.crunchtime.com/)**  
-
-  Store-level operations execution platform acquired by Crunchtime. Gong cha case study: **49% more daily tasks completed**, **20% better brand standards compliance**, **25% increase in guest return rates**, and **20% NPS increase** across 400+ stores within first year . Features standardized checklists and audits (opening/closing, food safety), store excellence guides for third-party evaluation prep, and national operations initiative calendars for LTO execution. Photo and video integrity checks help verify work was done correctly—"if you don't have a photo, you're really just trusting [work] was done" .
-
-
-
-- **[IntouchCheck (Intouch Insight)](https://www.intouchinsight.com/)**  
-
-  Digital inspection and checklist software for multi-location businesses. Features centralized operations center with bird's-eye view, employee accountability workflows with triggers and follow-ups, food safety and hygiene protocols, and SOP adherence checklists. **Rule-based approval routing** and random spot checks help managers focus on audits that matter most. Thermoworks integration for automated temperature checks . Convenience store operations module covers food safety, forecourt/pump maintenance, inventory restocking, age-restricted sales compliance, and store presentation .
-
-
-
-- **[FORM OpX (Form.com)](https://www.form.com/)**  
-
-  Field service management and workflow solution with dynamic form logic, photo reporting, configurable workflows, **54 languages**, and **offline mode**. Streamlines SOPs, inspections, and audits for compliance tracking and field performance measurement across the enterprise .
-
-
-
-- **[ComplianceMetrix (CMX1)](https://www.compliancemetrix.com/)**  
-
-  Cloud-based platform for managing quality, risk, and compliance. **Offline app** enables field teams to complete audits, assessments, inspections, certifications, checklists, and forms without network connectivity—automatically syncing when online. Capture pictures and videos as part of assignments or corrective actions. Modules include Product Specifications, Vendor Onboarding, Facility Audits, Certifications, Self Assessments, Policy Management, Master Data, Vendor Scorecards, Nutritional, Lab Tests, and Checklists .
-
-
-
-- **[Jolt](https://www.jolt.com/)**  
-
-  Digital food safety and operations platform for franchises. **Probe Report** tracks temperature probe usage trends to identify locations not following food safety practices—detects when probe input is overridden and readings entered manually. **Brand Probe Report** follows franchisee adoption of digital food safety mandates across entire networks . **Brand Completion Report** monitors adoption and best practices across enterprise, with grouping by list, completion percent trends, and custom filters for slicing data by field office or co-op .
-
-
-
-- **[MeazureUp](https://meazureup.com/)**  
-
-  Real-time process control monitoring with **AuditApp** (weekly/monthly/quarterly infractions with photos and comments for district managers) and **DailyChex** (daily checklists and temperature logs for shift managers). Wireless temperature monitoring integrates with kitchen equipment. Features time-stamped documentation, digital signatures, automatic report generation, and legal archiving. Franchisee transfers benefit from progress tracking—"we can understand where stores have improved and regressed" .
-
-
-
-- **[OpsAnalitica](https://www.opsanalitica.com/)**  
-
-  AI-powered franchise management with **OpsPhotoAnalyzer** that automatically verifies brand standards and compliance. Acts as a **24/7 automated brand auditor**—scans photos from daily checklists to ensure every location delivers on the brand promise without physical presence for every audit. Automatically recognizes brand standards (signage, uniform compliance, setup) and flags deviations instantly. Continuously optimizes LTO execution by verifying signage and plating standards .
-
-
-
-- **[MarketMan](https://www.marketman.com/)**  
-
-  Restaurant inventory management with franchise oversight. TouchBistro integration case study: **85% reduction in inventory time**, troubleshooting slashed from **7-8 hours to 5-60 minutes per week**. Commissary-to-location tracking eliminates "missing inventory" questions. Vendor price irregularities flagged for immediate action—"allows me to jump straight on the phone with the rep and ask why" .
-
-
-
-- **[FieldX (FieldXpress)](https://play.google.com/store/apps/details?id=com.subsidex.fieldxpress)**  
-
-  Field activity management for field officers, sales teams, and marketing professionals. Features intelligent planning with route optimization, real-time monitoring of field activities and locations, KPI improvement with data-driven insights and early warnings, direct dealer connection, SOP adherence tracking, and government-mandated compliance reporting .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[getsear Franchise Module](https://github.com/AIVIIZN/getsear/blob/main/MODULE_SPECS/20_franchise.md)**  
-
-  Open-source franchise management specification with **API routes and data models** for franchise configuration, royalty calculations, compliance checks, and consolidated reporting. Key entities: `franchise_compliance_checks` (check_type: menu_adherence, pricing_compliance, hours_compliance; status: passed/warning/failed; details jsonb), `menu_push_log` (track corporate menu pushes with status and error logs), `location_groups` (regional groupings with director assignment), and `franchise_royalties` (period-based royalty and marketing fund calculations) . Provides blueprint for building franchise audit systems with cross-location comparison dashboards and compliance run endpoints.
-
-
-
-- **[Crop Compliance Observation Ledger](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger)**  
-
-  Open-source TypeScript control plane for **field observations, evidence blockers, and audit-facing posture** (AGPL-3.0). Demonstrates the compliance-ledger primitive: turns observation chaos into governed lanes, named ownership, and measurable review posture. Features observation-lane routes, compliance-risks tracking, field-posture dashboard, and verification endpoints. **100% test coverage** on services with CI enforcement (gate: ≥60%). Production-deployed as static prerender . Adaptable pattern for franchise field audit evidence management.
-
-
-
-- **[RaRa Digitizer](https://pypi.org/project/rara-digitizer/)**  
-
-  Open-source document and image digitization tool with OCR capabilities (Tesseract models for Latin, Cyrillic, English, Estonian Fraktur). Features image classification (YOLO), text post-processing, resource caching for performance, and custom resource support. **Context manager** ensures temporary file cleanup. Adaptable for automated scanning of paper inspection forms, receipts, or compliance documentation into structured digital records .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[ERPNext](https://github.com/frappe/erpnext)** — Open-source ERP (GPL-3.0) with quality management, asset maintenance, and compliance tracking modules adaptable for franchise operations.
-
-- **[Odoo](https://github.com/odoo/odoo)** — Open-source business suite (LGPL-3.0) with Field Service, Quality, and Maintenance modules for distributed operations.
-
-- **[OpenBoxes](https://github.com/openboxes/openboxes)** — Open-source supply chain management (EPL-1.0) with multi-location inventory tracking and compliance documentation.
-
-- Community **n8n** workflows for franchise audit automation, photo verification routing, and compliance alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **getsear Franchise Module** specification for data models and API routes with **Crop Compliance Observation Ledger** for evidence-ledger patterns, **RaRa Digitizer** for document OCR, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade franchise audit platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Franchise audit systems handling operational data must comply with data protection regulations (GDPR, CCPA, etc.) and franchise disclosure requirements.
-
-- Self-hosted open-source solutions require proper security hardening, photo/video storage infrastructure, and ongoing maintenance. **AI-powered compliance verification requires training data representative of your brand standards**—OpsPhotoAnalyzer-style systems must be configured with your specific signage, uniform, and setup requirements. Photo-based verification is only as reliable as the photos submitted; integrity checks (time-stamped, geotagged, unedited) should be enforced. Offline-first capabilities are essential for field audits in locations with poor connectivity.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Automated Franchise Policy Audit Systems" width="100%" />
+</p>
+
+# 🏢 Awesome Automated Franchise Policy Audit Systems
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems?style=for-the-badge&color=success" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🎯 Executive Overview & SEO Meta Summary
 
+A comprehensive, production-tested index of **Automated Franchise Policy Audit Systems**, **multi-unit compliance automation platforms**, and **open-source audit infrastructure**. 
 
-**Made for franchise operators, compliance managers, field auditors, and developers building transparent audit solutions.**  
+Franchisors, multi-unit franchisees, compliance directors, and operations executives operate in distributed environments where physical inspections are costly, intermittent, and vulnerable to human bias. Modern franchise audit solutions leverage **AI computer vision**, **digital inspection checklists**, **IoT wireless sensors**, and **tamper-proof evidence ledgers** to automate store-level brand standards enforcement, food safety adherence, POS menu compliance, and royalty auditing across hundreds or thousands of franchise units in real time.
 
-Let's make Automated Franchise Policy Audit Systems more open, data-driven, and verifiable.
+> **Key Capabilities Covered:** Automated Store Inspections • AI-Powered Photo Verification • Brand Standards Enforcement • Tamper-Resistant Audit Ledgers • Food Safety & Temperature Automation • POS & Pricing Compliance • Offline Field Audits • SOP Adherence Monitoring.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Repositories & Frameworks](#-open-source-repositories--frameworks)
+- [🏗️ Architectural Blueprint for Self-Hosted Systems](#️-architectural-blueprint-for-self-hosted-systems)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Franchise Management & Compliance Audit Software** market is currently estimated at **$1.7 billion to $2.8 billion** (2024–2026), expanding at a compound annual growth rate (**CAGR) of 8.9% to 10.5%**, and is projected to cross **$5.0 billion+** over the next decade. 
+
+### Market Concentration & Fragmentation Profile
+* **Moderately to Highly Fragmented Ecosystem:** The market is not a single "winner-take-all" monopoly. Instead, it is characterized by deep vertical specialization across Quick-Service Restaurants (QSRs), automotive dealerships, hotel hospitality, convenience retail, and healthcare clinics.
+* **Point Solution vs. Enterprise Core Split:** Operators frequently combine specialized point tools (e.g., IoT automated temperature probes and photo auditing AI) with broader enterprise franchise ERP suites.
+* **Active Private Equity Consolidation:** High-growth platforms are actively being merged into unified ops platforms (e.g., Crunchtime's acquisition of Zenput, Serent Capital's backing of FranConnect, and Ladle's acquisition of MeazureUp), driving integration between daily employee task execution and central compliance governance.
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+The following enterprise platforms specialize in franchise audits, field inspections, photo compliance verification, and operational brand standard tracking. Sorted in **descending order by company scale** (estimated valuation or annual recurring revenue):
+
+| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Core Audit & Compliance Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[SafetyCulture (iAuditor)](https://safetyculture.com/)** | **~$1.8B Valuation** ($2.7B AUD) / ~$120M+ ARR | **$24 / user / month** (Premium plan billed annually; $29/mo billed monthly) | **Free Forever Plan**: Up to 10 team members, up to 10 completed inspection checklists/month, photo uploads & PDF reports | Mobile inspection checklists, automated corrective actions, temperature sensor integrations, and store-level brand compliance audits for enterprise chains. |
+| **[Zenput (Crunchtime)](https://www.crunchtime.com/)** | **~$800M Valuation** (Acquired by Crunchtime) / ~$25M ARR | **~$40 / location / month** (Operations Execution baseline tier) | **14-Day Guided Pilot**: No permanent free tier; structured 14-day proof-of-concept on request with custom checklist templates | Automated brand execution, photo/video integrity checks, QSR food safety verification, and automated escalation workflows across distributed stores. |
+| **[FranConnect](https://www.franconnect.com/)** | **~$400M Valuation** (Serent Capital) / ~$70M ARR | **$250 / month** (Starting operational module tier; scales with location volume) | **0-Day Trial (Demo Only)**: No public free tier; personalized live product walkthrough and custom sandbox assessment | Complete franchise lifecycle suite, central brand standards repository, automated royalty tracking, field inspection scoring, and LMS integration. |
+| **[FORM OpX (Form.com)](https://www.form.com/)** | **~$120M Valuation** (Diversis Capital) / ~$35M ARR | **$30 / user / month** (Essentials tier; minimum 10 users = $300/month baseline) | **0-Day Trial (Demo Only)**: No self-serve free plan; enterprise pilot program available upon qualified sales consultation | Offline-first mobile field audit forms, AI computer vision for photo verification, dynamic form logic, multi-lingual workflows (54 languages). |
+| **[MarketMan](https://www.marketman.com/)** | **~$100M Valuation** (PSG backed / Meal Ticket) / ~$18M ARR | **$249 / location / month** (Starter plan billed annually; $279/mo billed monthly) | **0-Day Trial (Demo Only)**: No self-serve free tier; 1-on-1 scheduled live sandbox demonstration with custom recipe audit modeling | Multi-unit restaurant inventory audits, automated invoice OCR price variance alerts, commissary-to-store transfer tracking, and food waste checks. |
+| **[ComplianceMetrix (CMX1)](https://www.compliancemetrix.com/)** | **~$80M Valuation** ($51M funding) / ~$13M ARR | **$1,000 / month** ($12,000/year minimum baseline enterprise subscription) | **0-Day Trial (Demo Only)**: No free tier; custom enterprise proof-of-concept and ROI assessment with sample audit templates | Enterprise quality and food safety compliance, offline field audits, vendor onboarding certifications, corrective action plans (CAPA), and lab test tracking. |
+| **[Jolt](https://www.jolt.com/)** | **~$50M Valuation** (Acquired by Digi - $1.2B parent) / ~$19.7M ARR | **$50 / location / month** (Core checklists & digital temperature logs module) | **0-Day Trial (Demo Only)**: No free tier; customized live environment demo with remote temperature sensor demonstration | Digital food safety compliance, wireless Bluetooth temperature probe tracking with manual override detection, and brand completion audit reports. |
+| **[IntouchCheck (Intouch)](https://www.intouchinsight.com/)** | **~$15M Market Cap** (TSXV: INX) / ~$18M USD ($25M CAD) Rev | **$39 / user / month** (Checklists & Inspection Standard tier) | **14-Day Free Trial**: Full inspection module access for up to 5 user accounts with custom checklist creation and photo uploads | Multi-location inspection software, rule-based approval routing, random spot-check auditor scheduling, and automated temperature monitoring. |
+| **[MeazureUp](https://meazureup.com/)** | **~$10M Valuation** (Acquired by Ladle) / ~$2.4M ARR | **$20 / user / month** (AuditApp & DailyChex baseline license) | **7-Day Free Trial**: Full feature access to AuditApp and DailyChex, photo attachments, action plans, and digital scorecards | Real-time process control monitoring, district manager field inspection apps with photo evidence, timestamped logs, and franchisee transition scoring. |
+| **[OpsAnalitica](https://www.opsanalitica.com/)** | **~$6M Valuation** (Bootstrapped / Private) / ~$1.5M ARR | **$30 / location / month** (Standard multi-unit operations subscription) | **Free Forever Plan**: 1 user, 1 location, single active checklist (e.g., food safety or daily opening checklist) with unlimited completions | AI-powered **OpsPhotoAnalyzer** acting as a 24/7 automated brand auditor, scanning checklist photos to verify uniforms, signage, and plating compliance. |
+| **[FieldXpress (Subsidex)](https://play.google.com/store/apps/details?id=com.subsidex.fieldxpress)** | **~$5M Valuation** / ~$1.2M ARR | **$15 / user / month** (Field operations tracking standard tier) | **14-Day Free Trial**: Complete access for up to 10 field agents, route planning, store compliance checklists, and GPS location tracking | Mobile field inspection app, intelligent route planning, real-time field staff geotagging, SOP adherence tracking, and dealer audit logs. |
+
+---
+
+## 💻 Open-Source Repositories & Frameworks
+
+Production-grade open-source repositories for self-hosting audit infrastructure, building field inspection apps, training computer vision compliance models, and maintaining tamper-proof audit trails. Sorted in **descending order by GitHub star count**:
+
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+  *Fair-code workflow automation platform for orchestrating franchise policy audits, routing non-compliance alerts, and connecting store data.*  
+  Serves as the central integration bus for automated audits: triggers automated webhooks when store checklists fail, routes photo submissions to AI inference endpoints, generates Jira/Slack corrective action tickets for store managers, and dispatches escalation emails to district supervisors.
+
+- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** [![GitHub stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers)  
+  *The premier open-source Optical Character Recognition engine for automated scanning and digitization.*  
+  Critical for converting legacy paper inspection logs, printed supplier invoices, health inspection certificates, and printed receipts from distributed franchise units into structured, queryable digital audit records.
+
+- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
+  *Open-source smart spreadsheet and relational database interface connecting directly to PostgreSQL/MySQL.*  
+  Provides franchise compliance directors with an instant Airtable-like collaborative workspace for tracking location checklists, managing recurring audit schedules, recording infraction penalties, and reviewing store performance scorecards.
+
+- **[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)** [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
+  *State-of-the-art computer vision framework (YOLOv8 / YOLO11) for real-time object detection and visual audit automation.*  
+  Enables automated visual verification of franchise brand standards: detects proper staff uniform and hat adherence, verifies marketing signage and point-of-sale poster placements, audits kitchen cleanliness, and validates product plating compliance from submitted field photos.
+
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+  *Comprehensive open-source business management suite (LGPL-3.0).*  
+  Features modular **Field Service**, **Quality Control**, and **Point of Sale (POS)** engines. Provides multi-branch inventory tracking, automated quality checkpoints, scheduled maintenance audits, and standardized operating procedure enforcement across distributed franchise branches.
+
+- **[Supervision](https://github.com/roboflow/supervision)** [![GitHub stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
+  *Reusable open-source computer vision utilities for retail shelf audits, zone detection, and compliance analysis.*  
+  Streamlines video stream and photo analysis for retail and restaurant audits: provides polygon zone monitoring (e.g. verifying clean food prep counters), object counting (detecting inventory stockouts), and visual compliance annotators.
+
+- **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
+  *Open-source document management system that transforms physical documents into searchable digital archives.*  
+  Features automated OCR, document classification, and metadata extraction. Ideal for centralizing franchise agreements, local health inspection reports, food safety certificates, and business licenses across hundreds of locations.
+
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+  *100% open-source enterprise ERP (GPL-3.0) with robust multi-company franchise operations support.*  
+  Offers native modules for asset maintenance inspections, quality inspection forms, multi-unit accounting, royalty calculation ledgers, and consolidated corporate reporting across franchisor-franchisee boundaries.
+
+- **[Budibase](https://github.com/Budibase/budibase)** [![GitHub stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers)  
+  *Open-source low-code platform for building internal tools, auditor portals, and mobile field inspection apps.*  
+  Enables operations teams to generate custom mobile-responsive store audit apps in hours—featuring photo attachments, digital signature capture, dynamic conditional fields, and role-based access for field auditors and franchisees.
+
+- **[immudb](https://github.com/codenotary/immudb)** [![GitHub stars](https://img.shields.io/github/stars/codenotary/immudb?style=social&color=white)](https://github.com/codenotary/immudb/stargazers)  
+  *Lightweight, high-speed immutable database for cryptographic, tamper-proof audit trails and compliance ledgers.*  
+  Ensures that once a store inspection, temperature log, or violation notice is recorded, it cannot be retroactively altered, backdated, or falsified by store managers or operators—providing legally admissible proof of compliance posture.
+
+- **[OpenBoxes](https://github.com/openboxes/openboxes)** [![GitHub stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)  
+  *Open-source supply chain and inventory management software (EPL-1.0).*  
+  Specialized for tracking inventory movement, lot numbers, expiration dates, and multi-location transfers across distributed franchise distribution centers and commissary kitchens.
+
+- **[ODK Collect](https://github.com/getodk/collect)** [![GitHub stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers)  
+  *The global open-source mobile standard for offline field data collection and site inspections.*  
+  Features robust offline caching, GPS location verification, time-stamped photo capture, dynamic question skipping, and automated synchronization once network connectivity is restored—essential for field auditors visiting remote stores.
+
+- **[getsear Franchise Module](https://github.com/AIVIIZN/getsear)** [![GitHub stars](https://img.shields.io/github/stars/AIVIIZN/getsear?style=social&color=white)](https://github.com/AIVIIZN/getsear/stargazers)  
+  *Open-source franchise management specification with API routes, compliance check schemas, and royalty models.*  
+  Defines structured database schemas for `franchise_compliance_checks` (menu adherence, pricing compliance, operational hours), corporate menu push status logs (`menu_push_log`), regional director assignments, and automated period-based royalty calculations.
+
+- **[Crop Compliance Observation Ledger](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger)** [![GitHub stars](https://img.shields.io/github/stars/mizcausevic-dev/crop-compliance-observation-ledger?style=social&color=white)](https://github.com/mizcausevic-dev/crop-compliance-observation-ledger/stargazers)  
+  *TypeScript control plane for field observations, evidence blockers, and audit posture verification.*  
+  Demonstrates an evidence-ledger architecture that converts observation data into governed review lanes, named compliance ownership, and automated verification posture endpoints with 100% test coverage.
+
+---
+
+## 🏗️ Architectural Blueprint for Self-Hosted Systems
+
+Franchise networks can build a vendor-independent, enterprise-grade automated audit platform by orchestrating these complementary open-source components:
+
+```mermaid
+flowchart TD
+    subgraph StoreLevel ["🏬 Store-Level Data Collection"]
+        A1["📱 ODK Collect / Budibase<br/>(Offline Checklists & Forms)"]
+        A2["📷 High-Res Photos<br/>(Signage, Uniforms, Displays)"]
+        A3["🌡️ IoT Temperature Sensors<br/>(Refrigeration & Prep Stations)"]
+    end
+
+    subgraph VerificationEngine ["⚙️ Automated Verification Engine"]
+        B1["🔄 n8n Orchestrator<br/>(Event Ingestion & Routing)"]
+        B2["👁️ Ultralytics YOLO & Supervision<br/>(AI Brand Standards Verification)"]
+        B3["📄 Tesseract OCR & Paperless<br/>(Document & Permit Extraction)"]
+    end
+
+    subgraph GovernanceLedger ["🛡️ Compliance Ledger & Governance"]
+        C1["🔒 immudb<br/>(Tamper-Proof Audit Trail)"]
+        C2["📊 NocoDB / ERPNext<br/>(Franchisee Portals & Action Plans)"]
+        C3["🚨 Automated Alerts<br/>(Slack, Email, Penalty Scoring)"]
+    end
+
+    StoreLevel -->|Field Submissions| B1
+    B1 --> B2
+    B1 --> B3
+    B2 -->|Visual Compliance Scores| C1
+    B3 -->|Verified Permit Records| C1
+    A3 -->|Sensor Stream| C1
+    C1 --> C2
+    C1 --> C3
+```
+
+1. **Edge Inspection Capture**: Field reps and store managers capture geotagged checklists via **ODK Collect** or custom **Budibase** apps.
+2. **AI Visual & OCR Verification**: Photo submissions are routed by **n8n** to **Ultralytics YOLO** (detecting uniforms, signage, plating) and **Tesseract OCR** (verifying invoices and health inspection certificates).
+3. **Cryptographic Immutability**: All inspection scores, sensor streams, and compliance timestamps are permanently committed to an **immudb** ledger to prevent post-incident falsification.
+4. **Resolution Management**: Non-compliance triggers corrective action tasks in **ERPNext** or **NocoDB**, with automated escalation to regional franchise directors.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from franchise operators, compliance auditors, and open-source developers are welcome!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a feature branch**: `git checkout -b feature/add-new-audit-platform`.
+3. 📝 **Add or update an entry**: Maintain tabular pricing specifications for SaaS tools, or provide shields.io star badges linking to the repository stargazers page for open-source projects.
+4. 🚀 **Commit your changes**: `git commit -m "feat: add NewAuditPlatform to ecosystem"`.
+5. 📬 **Submit a Pull Request**: Provide a concise summary of the software and links to official documentation.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Automated-Franchise-Policy-Audit-Systems&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and building with the **Automated Franchise Policy Audit Systems** ecosystem! If this curated guide assisted your team in evaluating franchise compliance platforms, deploying automated inspection checklists, or designing an open-source audit ledger:
+
+- ⭐ **Star this repository** to improve discoverability for multi-unit operators and software engineers.
+- 🍴 **Fork and share** with your franchise operations, QA, and IT engineering teams.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation, research, and open-source maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer
+
+* This repository is a community-curated research directory and does not constitute formal legal, franchise disclosure (FDD), or regulatory compliance advice.
+* All trademarks, product names, logos, and registered brands belong to their respective corporate owners.
+* Self-hosted audit infrastructure handling employee records, CCTV footage, or store metrics must comply with local privacy regulations (GDPR, CCPA, BIPA) and franchise contract disclosure standards.
+* Photo-based and computer-vision audit models require representative training datasets to accurately reflect brand-specific plating, uniform, and signage guidelines.
